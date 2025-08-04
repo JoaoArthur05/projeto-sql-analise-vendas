@@ -14,10 +14,9 @@ O banco de dados foi construído com foco em uma modelagem relacional simples, m
 
 - `clientes`
 - `produtos`
-- `vendas`
-- `categorias`
-- `formas_pagamento`
-- `vendedores`
+- `pedidos`
+- `detalhes_pedidos`
+
 
 Essa estrutura permitiu simular interações reais entre os agentes da loja e gerar relatórios com **valor prático**.
 
@@ -38,10 +37,13 @@ Essa estrutura permitiu simular interações reais entre os agentes da loja e ge
 Cada consulta foi pensada para responder perguntas importantes como:
 
 - Quais são os produtos mais vendidos e quais geram maior receita?
-- Como o desempenho de vendas varia por período?
-- Quem são os melhores vendedores em termos de faturamento?
-- Quais métodos de pagamento são mais utilizados e em quais categorias?
-- Qual é o ticket médio por cliente e por categoria de produto?
+- Como o desempenho de vendas varia por período? (faturamento por pedido e faturamento total)
+- Como foi a performance de faturamento por região?
+- Quais clientes mais valiosos pro negócio (maiores compradores e maior recorrência)
+- Qual ticket de cada pedido e o ticket médio dos pedidos?
+
+
+
 
 Essas análises são fundamentais para embasar decisões **táticas e estratégicas** dentro de um ambiente comercial.
 
